@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 183, 0, 0.11); /* Grey background color */
+
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #4c51af; /* Add colorful border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.form-heading {
+    color: rgba(0, 51, 255, 0.43);
+    margin-top: 0;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.address-inputs {
+    display: flex;
+    flex-wrap: wrap; /* Wrap the address inputs to the next line if necessary */
+    margin-bottom: 10px; /* Add some spacing between the address inputs */
+}
+
+.address-input {
+    flex-basis: 48%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Add some spacing between the address inputs */
+}
+
+.form-submit-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make the submit button fill the width */
+}
+
+.form-submit-btn:hover {
+    background-color: #458ba0;
+}
